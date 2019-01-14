@@ -3,6 +3,6 @@ os: windows
 branches:
   only:
   - master
-  script: echo 'I worked'
+    script: echo 'I worked'
   - /^deploy-.*$/
 
