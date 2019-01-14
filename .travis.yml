@@ -1,2 +1,7 @@
 language: shell
 os: windows
+branches:
+  only:
+  - master
+  - /^deploy-.*$/
+  script: echo 'I worked'
