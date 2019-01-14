@@ -1,7 +1,8 @@
 language: shell
 os: windows
+script: echo 'I worked'
 branches:
   only:
   - master
   - /^deploy-.*$/
-  script: echo 'I worked'
+
