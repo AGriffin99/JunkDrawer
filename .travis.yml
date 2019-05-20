@@ -1,7 +1,7 @@
 language: shell
 os: windows
-script: echo 'I worked' "valu"
-
+script: echo 'I worked'
+echo $valu
 pie: "pie"
 branches:
   only:
