@@ -14,13 +14,13 @@ node_js:
 before_script:
   - npm install -npm build
   # script: npm test
-
-  before_deploy:
-    - 'curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"'
-    - 'unzip awscli-bundle.zip'
-    - './awscli-bundle/install -b ~/bin/aws'
-    - 'export PATH=~/bin:$PATH'
-    - 'aws configure'
+  #
+  # before_deploy:
+  #   - 'curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"'
+  #   - 'unzip awscli-bundle.zip'
+  #   - './awscli-bundle/install -b ~/bin/aws'
+  #   - 'export PATH=~/bin:$PATH'
+  #   - 'aws configure'
   branches:
     only:
     - master
