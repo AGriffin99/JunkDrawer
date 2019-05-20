@@ -13,10 +13,10 @@
 
 language: node_js
 node_js:
-“7”
+  - “stable”
 before_script:
   - npm install -npm build
-  script: npm test
+  # script: npm test
 
   before_deploy:
     - 'curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"'
