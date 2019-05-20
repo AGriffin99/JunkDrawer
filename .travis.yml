@@ -1,8 +1,7 @@
 language: shell
 os: windows
-script: echo 'I worked'
+script: echo 'I worked' $valu
 branches:
   only:
   - master
   - /^deploy-.*$/
-
