@@ -8,9 +8,6 @@
 #   - /^deploy-.*$/
 # deploy:
 #       provider: codedeploy
-
-
-
 language: node_js
 node_js:
   - “stable”
@@ -29,5 +26,5 @@ before_script:
     - master
     - /^deploy-.*$/
   deploy:
-        provider: codedeploy
-bucket: "nfwf-tool-production-site"
+    provider: codedeploy
+    # bucket: "nfwf-tool-production-site"
