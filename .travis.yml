@@ -1,9 +1,33 @@
-language: shell
-os: windows
-script: echo 'I worked'
-echo $valu
-pie: "pie"
-branches:
-  only:
-  - master
-  - /^deploy-.*$/
+# language: shell
+# os: windows
+# script: echo "This sucks"
+# # pie: "pie"
+# branches:
+#   only:
+#   - master
+#   - /^deploy-.*$/
+# deploy:
+#       provider: codedeploy
+
+
+
+language: node_js
+node_js:
+“7”
+before_script:
+  - npm install -npm build
+  script: npm test
+
+  before_deploy:
+    - 'curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"'
+    - 'unzip awscli-bundle.zip'
+    - './awscli-bundle/install -b ~/bin/aws'
+    - 'export PATH=~/bin:$PATH'
+    - 'aws configure'
+  branches:
+    only:
+    - master
+    - /^deploy-.*$/
+  deploy:
+        provider: codedeploy
+bucket: "nfwf-tool-production-site"
