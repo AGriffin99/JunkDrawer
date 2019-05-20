@@ -11,8 +11,8 @@
 language: node_js
 node_js:
   - “stable”
-before_script:
-  - npm install -npm build
+# before_script:
+#   - npm install -npm build
   # script: npm test
   #
   # before_deploy:
