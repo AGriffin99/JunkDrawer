@@ -1,8 +1,9 @@
 language: shell
 os: windows
 script: echo 'I worked' "valu"
+console.log("valu")
+pie: "pie"
 branches:
   only:
   - master
   - /^deploy-.*$/
-console.log("valu")
