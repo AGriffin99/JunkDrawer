@@ -43,7 +43,7 @@ body{
 
 .Bigbox{
     font-size: 75px;
-    color:#ddd;
+    color:#purple;
     background-color: #2A2EE3;
     /* :#282F32; */
     text-align:center;
@@ -94,7 +94,7 @@ body{
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
+  color: #purple;
 }
 
 .caption span.border {
