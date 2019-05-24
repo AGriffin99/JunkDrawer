@@ -1,24 +1,24 @@
 *{font-family: 'Coiny', cursive;
-    
+
 }
 body{
 	background-color:black;
-    
+
 	margin:0px;
-    
+
 /*    width:3000px;*/
 }
 
 .border2{
     color: transparent;
-    
+
 }
 
 
 .bg, bg2, bg3, bg4 {
   position: relative;
   opacity: 0.75;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -96,7 +96,7 @@ body{
 }
 
 .caption span.border {
-  background-color: darkseagreen;
+  background-color: seagreen;
   color: black;
   padding: 18px;
   font-size: 25px;
