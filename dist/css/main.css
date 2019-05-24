@@ -2,7 +2,7 @@
 
 }
 body{
-	background-color:black;
+	background-color:darkseagreen;
 
 	margin:0px;
 
@@ -33,7 +33,7 @@ body{
 
 #box{
     font-size:25px;
-    color:PURPLE;
+    color:purple;
     background-color:#2435F3;
     /* #282F32; */
     text-align:center;
@@ -43,8 +43,8 @@ body{
 
 .Bigbox{
     font-size: 75px;
-    color:#purple;
-    background-color: #2A2EE3;
+    color:purple;
+    background-color: blue;
     /* :#282F32; */
     text-align:center;
     padding:50px 80px;
@@ -94,12 +94,12 @@ body{
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #purple;
+  color: purple;
 }
 
 .caption span.border {
   background-color: blue;
-  color: black;
+  color: purple;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
