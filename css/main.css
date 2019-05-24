@@ -34,7 +34,8 @@ body{
 #box{
     font-size:25px;
     color:#ddd;
-    background-color:#282F32;
+    background-color:#2435F3;
+    /* #282F32; */
     text-align:center;
     padding:50px 80px;
 /*    text-align: justify;*/
@@ -43,7 +44,8 @@ body{
 .Bigbox{
     font-size: 75px;
     color:#ddd;
-    background-color:#282F32;
+    background-color: #2A2EE3;
+    /* :#282F32; */
     text-align:center;
     padding:50px 80px;
 }
@@ -96,7 +98,7 @@ body{
 }
 
 .caption span.border {
-  background-color: seagreen;
+  background-color: blue;
   color: black;
   padding: 18px;
   font-size: 25px;
