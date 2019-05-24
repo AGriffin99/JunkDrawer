@@ -9,6 +9,3 @@ deploy:
     acl: public_read
     local_dir:
     skip_cleanup: true
-branches:
-  only:
-  - prod
