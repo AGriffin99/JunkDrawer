@@ -3,12 +3,11 @@ node_js:
   - 8.9.4
 deploy:
     provider: s3
+    on:
+      branch: prod
     access_key_id: $access
     secret_access_key: $secret
     bucket: anitra
     acl: public_read
     local_dir:
     skip_cleanup: true
-branches:
-  only:
-  - prod
